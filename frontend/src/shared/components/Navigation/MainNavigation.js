@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./MainNavigation.css";
 import MainHeader from "./MainHeader";
@@ -12,18 +13,18 @@ function MainNavigation() {
         <span />
       </button>
       <h1 className="main-navigation__title">
-        <a href="/">Your Places</a>
+        <Link to="/">ExpPlaces</Link>
       </h1>
       <nav className="main-navigation__header-nav">
         <ul>
           <li>
-            <a href="/">Users</a>
+            <Link to="/">Users</Link>
           </li>
           <li>
-            <a href="/">Share Places</a>
+            <Link to="/">Share Places</Link>
           </li>
           <li>
-            <a href="/">Login</a>
+            <Link to="/">Login</Link>
           </li>
         </ul>
       </nav>
