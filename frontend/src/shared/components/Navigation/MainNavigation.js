@@ -16,7 +16,7 @@ function MainNavigation() {
       <h1 className="main-navigation__title">
         <Link to="/">ExpPlaces</Link>
       </h1>
-      <nav>
+      <nav className="main-navigation__header-nav">
         <NavLinks />
       </nav>
     </MainHeader>
